@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 multi-agent-skills-hub
+# ðŸŒ multi-agent-skills-hub
 
 **Production-grade, sector-organized skills and governance architecture for AI coding agents.**  
 *Native compatibility for Claude Code, Google Antigravity, OpenCode, Cursor, and Codex.*
@@ -10,38 +10,38 @@
 [![Knowledge Graph](https://img.shields.io/badge/graph-2%2C300%2B%20nodes-purple.svg)](#how-the-knowledge-graph-works)
 [![Cross-Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](#quick-start)
 
-[English](#english) · [Português](#português)
+[English](#english) Â· [PortuguÃªs](#portuguÃªs)
 
 </div>
 
 ---
 
 <a name="english"></a>
-## 💡 The Problem
+## ðŸ’¡ The Problem
 
 Most developers configure AI coding agents by dumping dozens of monolithic `.md` files (50 KB+ each) into the agent's root prompt. This triggers severe drawbacks:
 1. **Context Bloat:** Thousands of useless tokens loaded on every turn, degrading reasoning quality.
-2. **TTFT Latency Floor:** Waiting 6–8 seconds per turn for basic read-only tool calls.
-3. **AI Slop:** Generic, uninspired web interfaces with low-contrast, cliché purple gradients.
+2. **TTFT Latency Floor:** Waiting 6â€“8 seconds per turn for basic read-only tool calls.
+3. **AI Slop:** Generic, uninspired web interfaces with low-contrast, clichÃ© purple gradients.
 4. **Agent Amnesia:** Switching between Claude Code, Antigravity, or Cursor forces you to re-explain project rules repeatedly.
 
-## 🚀 The Solution: `multi-agent-skills-hub`
+## ðŸš€ The Solution: `multi-agent-skills-hub`
 
 `multi-agent-skills-hub` organizes **38 specialized skills** into **6 distinct engineering sectors**, indexed by a local **Knowledge Graph (Graphify)**:
 
-- 🧠 **Zero Context Clutter:** Agents query the AST+semantic graph (`graphify query`) to fetch only the exact 15 lines of guidance they need.
-- ⚡ **Tool-Call Acceleration:** Integrated with `agy-fast` MCP for sub-70ms batch searches and atomic multi-file edits.
-- 🎨 **Anti-Slop Design System:** Strict UI aesthetics (`antiwebslop`), paired with `pocket-design` MCP for instant SVG icons (Phosphor, Feather), Google Fonts, and OKLCH palettes.
-- 🔗 **Single Source of Truth:** Canonical junctions/symlinks ensure Claude Code (`~/.claude/skills`), Antigravity (`~/.gemini/skills`), and OpenCode/Cursor (`~/.agents/skills`) share the exact same configuration without duplicating files.
+- ðŸ§  **Zero Context Clutter:** Agents query the AST+semantic graph (`graphify query`) to fetch only the exact 15 lines of guidance they need.
+- âš¡ **Tool-Call Acceleration:** Integrated with `agy-fast` MCP for sub-70ms batch searches and atomic multi-file edits.
+- ðŸŽ¨ **Anti-Slop Design System:** Strict UI aesthetics (`antiwebslop`), paired with `pocket-design` MCP for instant SVG icons (Phosphor, Feather), Google Fonts, and OKLCH palettes.
+- ðŸ”— **Single Source of Truth:** Canonical junctions/symlinks ensure Claude Code (`~/.claude/skills`), Antigravity (`~/.gemini/skills`), and OpenCode/Cursor (`~/.agents/skills`) share the exact same configuration without duplicating files.
 
 ---
 
-## ⚡ Quick Start
+## âš¡ Quick Start
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/multi-agent-skills-hub.git
+git clone https://github.com/Gallo41/multi-agent-skills-hub.git
 cd multi-agent-skills-hub
 ```
 
@@ -64,7 +64,7 @@ The script automatically detects your home directory and creates symbolic links/
 
 ---
 
-## 📂 The 6 Sectors
+## ðŸ“‚ The 6 Sectors
 
 | Sector | Focus | Key Skills & Tools |
 | :--- | :--- | :--- |
@@ -77,7 +77,7 @@ The script automatically detects your home directory and creates symbolic links/
 
 ---
 
-## 🧠 How the Knowledge Graph Works
+## ðŸ§  How the Knowledge Graph Works
 
 Instead of reading full `.md` files blindly, your agent queries the built-in graph:
 
@@ -91,19 +91,19 @@ Explore the visual graph interactively: open [`graphify-out/graph.html`](graphif
 
 ---
 
-<a name="português"></a>
-## 🇧🇷 Português
+<a name="portuguÃªs"></a>
+## ðŸ‡§ðŸ‡· PortuguÃªs
 
-O **multi-agent-skills-hub** é um ecossistema modular de **38 skills de desenvolvimento** organizadas em **6 setores de engenharia**.
+O **multi-agent-skills-hub** Ã© um ecossistema modular de **38 skills de desenvolvimento** organizadas em **6 setores de engenharia**.
 
 ### Vantagens:
-1. **Sem inchaço de contexto:** O agente não carrega arquivos gigantes. Ele consulta o Grafo de Conhecimento (`graphify query`) e puxa apenas a instrução necessária.
-2. **Multi-IA Nativo:** Funciona simultaneamente no Claude Code, Antigravity, OpenCode e Cursor através de espelhos de links simbólicos.
-3. **Design Anti-Slop:** Combina regras estéticas rigorosas com o servidor MCP `pocket-design` (ícones SVG reais, fontes do Google/Fontshare e paletas OKLCH).
-4. **Instalação em 1 Clique:** Rode `.\install.ps1` no Windows ou `./install.sh` no Mac/Linux para linkar todas as 38 skills imediatamente.
+1. **Sem inchaÃ§o de contexto:** O agente nÃ£o carrega arquivos gigantes. Ele consulta o Grafo de Conhecimento (`graphify query`) e puxa apenas a instruÃ§Ã£o necessÃ¡ria.
+2. **Multi-IA Nativo:** Funciona simultaneamente no Claude Code, Antigravity, OpenCode e Cursor atravÃ©s de espelhos de links simbÃ³licos.
+3. **Design Anti-Slop:** Combina regras estÃ©ticas rigorosas com o servidor MCP `pocket-design` (Ã­cones SVG reais, fontes do Google/Fontshare e paletas OKLCH).
+4. **InstalaÃ§Ã£o em 1 Clique:** Rode `.\install.ps1` no Windows ou `./install.sh` no Mac/Linux para linkar todas as 38 skills imediatamente.
 
 ---
 
-## 📄 License
+## ðŸ“„ License
 
 Code and skills are distributed under the [MIT License](LICENSE) and [Apache-2.0](LICENSE) for relevant submodules.
