@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+dist/cache/
+
+# Environment and secrets
+.env
+.env.*
+*.local
+Configura.ini
+
+# System & OS
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+tmp/
+temp/
+tests/tmp/
+
+# Binaries & compiled artifacts
+*.exe
+*.dll
+*.dcu
+*.gdb
+*.fdb
+Win32/
+Win64/
+
+# Graphify cache (keep curated graphs and wiki, ignore raw cache)
+graphify-out/cache/
