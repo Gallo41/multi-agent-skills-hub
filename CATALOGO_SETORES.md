@@ -38,17 +38,18 @@
 - **Regras**:
   - [`regras/matriz-decisao-visual.md`](./setores/03-frontend-ui-design/regras/matriz-decisao-visual.md)
   - [`regras/compatibilidade-windows-ui.md`](./setores/03-frontend-ui-design/regras/compatibilidade-windows-ui.md)
-- **Skills (10)**:
+- **Skills (11)**:
   1. [`frontend-design`](./setores/03-frontend-ui-design/skills/frontend-design/SKILL.md) — Interfaces web autênticas.
-  2. [`pocket-design`](./setores/03-frontend-ui-design/skills/pocket-design/SKILL.md) — Servidor MCP & skill: ícones SVG, fontes, componentes shadcn/React Bits, easings, paletas OKLCH e contraste WCAG/APCA.
-  3. [`design-taste-frontend`](./setores/03-frontend-ui-design/skills/design-taste-frontend/SKILL.md) — Direção de arte web e app screens (modularizada em `references/app-screens/`, `motion/`, `imagery/`).
-  4. [`antiwebslop`](./setores/03-frontend-ui-design/skills/antiwebslop/SKILL.md) — Padrões anti-slop e lint visual.
-  5. [`theme-factory`](./setores/03-frontend-ui-design/skills/theme-factory/SKILL.md) — 10 temas prontos + criação de paletas.
-  6. [`canvas-design`](./setores/03-frontend-ui-design/skills/canvas-design/SKILL.md) — Peças visuais estáticas (`.png`/`.pdf`).
-  7. [`algorithmic-art`](./setores/03-frontend-ui-design/skills/algorithmic-art/SKILL.md) — Arte generativa p5.js.
-  8. [`web-artifacts-builder`](./setores/03-frontend-ui-design/skills/web-artifacts-builder/SKILL.md) — Apps React + shadcn/ui multi-tela (via Git Bash + `pnpm`).
-  9. [`web-design-guidelines`](./setores/03-frontend-ui-design/skills/web-design-guidelines/SKILL.md) — Diretrizes Web Interface Vercel.
-  10. [`writing-guidelines`](./setores/03-frontend-ui-design/skills/writing-guidelines/SKILL.md) — Microcopy e escrita de UI.
+  2. [`gemini-frontend-design`](./setores/03-frontend-ui-design/skills/gemini-frontend-design/SKILL.md) — Design Google Gemini: tipografia estrita de 3 tamanhos, anti-bege/anti-neon e layout sob medida.
+  3. [`pocket-design`](./setores/03-frontend-ui-design/skills/pocket-design/SKILL.md) — Servidor MCP & skill: ícones SVG, fontes, componentes shadcn/React Bits, easings, paletas OKLCH e contraste WCAG/APCA.
+  4. [`design-taste-frontend`](./setores/03-frontend-ui-design/skills/design-taste-frontend/SKILL.md) — Direção de arte web e app screens (modularizada em `references/app-screens/`, `motion/`, `imagery/`).
+  5. [`antiwebslop`](./setores/03-frontend-ui-design/skills/antiwebslop/SKILL.md) — Padrões anti-slop e lint visual.
+  6. [`theme-factory`](./setores/03-frontend-ui-design/skills/theme-factory/SKILL.md) — 10 temas prontos + criação de paletas.
+  7. [`canvas-design`](./setores/03-frontend-ui-design/skills/canvas-design/SKILL.md) — Peças visuais estáticas (`.png`/`.pdf`).
+  8. [`algorithmic-art`](./setores/03-frontend-ui-design/skills/algorithmic-art/SKILL.md) — Arte generativa p5.js.
+  9. [`web-artifacts-builder`](./setores/03-frontend-ui-design/skills/web-artifacts-builder/SKILL.md) — Apps React + shadcn/ui multi-tela (via Git Bash + `pnpm`).
+  10. [`web-design-guidelines`](./setores/03-frontend-ui-design/skills/web-design-guidelines/SKILL.md) — Diretrizes Web Interface Vercel.
+  11. [`writing-guidelines`](./setores/03-frontend-ui-design/skills/writing-guidelines/SKILL.md) — Microcopy e escrita de UI.
 
 ## Setor 04 — React, Next.js & Mobile (`setores/04-react-nextjs-mobile/`)
 - **Visão Geral**: [`SETOR.md`](./setores/04-react-nextjs-mobile/SETOR.md)
