@@ -1,42 +1,42 @@
 <div align="center">
 
-# ðŸŒ multi-agent-skills-hub
+# Ã°Å¸Å’Â multi-agent-skills-hub
 
 **Production-grade, sector-organized skills and governance architecture for AI coding agents.**  
 *Native compatibility for Claude Code, Google Antigravity, OpenCode, Cursor, and Codex.*
 
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](#license)
-[![Skills Count](https://img.shields.io/badge/skills-38%20active-success.svg)](#the-6-sectors)
+[![Skills Count](https://img.shields.io/badge/skills-39%20active-success.svg)](#the-6-sectors)
 [![Knowledge Graph](https://img.shields.io/badge/graph-2%2C300%2B%20nodes-purple.svg)](#how-the-knowledge-graph-works)
 [![Cross-Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](#quick-start)
 
-[English](#english) Â· [PortuguÃªs](#portuguÃªs)
+[English](#english) Ã‚Â· [PortuguÃƒÂªs](#portuguÃƒÂªs)
 
 </div>
 
 ---
 
 <a name="english"></a>
-## ðŸ’¡ The Problem
+## Ã°Å¸â€™Â¡ The Problem
 
 Most developers configure AI coding agents by dumping dozens of monolithic `.md` files (50 KB+ each) into the agent's root prompt. This triggers severe drawbacks:
 1. **Context Bloat:** Thousands of useless tokens loaded on every turn, degrading reasoning quality.
-2. **TTFT Latency Floor:** Waiting 6â€“8 seconds per turn for basic read-only tool calls.
-3. **AI Slop:** Generic, uninspired web interfaces with low-contrast, clichÃ© purple gradients.
+2. **TTFT Latency Floor:** Waiting 6Ã¢â‚¬â€œ8 seconds per turn for basic read-only tool calls.
+3. **AI Slop:** Generic, uninspired web interfaces with low-contrast, clichÃƒÂ© purple gradients.
 4. **Agent Amnesia:** Switching between Claude Code, Antigravity, or Cursor forces you to re-explain project rules repeatedly.
 
-## ðŸš€ The Solution: `multi-agent-skills-hub`
+## Ã°Å¸Å¡â‚¬ The Solution: `multi-agent-skills-hub`
 
-`multi-agent-skills-hub` organizes **38 specialized skills** into **6 distinct engineering sectors**, indexed by a local **Knowledge Graph (Graphify)**:
+`multi-agent-skills-hub` organizes **39 specialized skills** into **6 distinct engineering sectors**, indexed by a local **Knowledge Graph (Graphify)**:
 
-- ðŸ§  **Zero Context Clutter:** Agents query the AST+semantic graph (`graphify query`) to fetch only the exact 15 lines of guidance they need.
-- âš¡ **Tool-Call Acceleration:** Integrated with `agy-fast` MCP for sub-70ms batch searches and atomic multi-file edits.
-- ðŸŽ¨ **Anti-Slop Design System:** Strict UI aesthetics (`antiwebslop`), paired with `pocket-design` MCP for instant SVG icons (Phosphor, Feather), Google Fonts, and OKLCH palettes.
-- ðŸ”— **Single Source of Truth:** Canonical junctions/symlinks ensure Claude Code (`~/.claude/skills`), Antigravity (`~/.gemini/skills`), and OpenCode/Cursor (`~/.agents/skills`) share the exact same configuration without duplicating files.
+- Ã°Å¸Â§Â  **Zero Context Clutter:** Agents query the AST+semantic graph (`graphify query`) to fetch only the exact 15 lines of guidance they need.
+- Ã¢Å¡Â¡ **Tool-Call Acceleration:** Integrated with `agy-fast` MCP for sub-70ms batch searches and atomic multi-file edits.
+- Ã°Å¸Å½Â¨ **Anti-Slop Design System:** Strict UI aesthetics (`antiwebslop`), paired with `pocket-design` MCP for instant SVG icons (Phosphor, Feather), Google Fonts, and OKLCH palettes.
+- Ã°Å¸â€â€” **Single Source of Truth:** Canonical junctions/symlinks ensure Claude Code (`~/.claude/skills`), Antigravity (`~/.gemini/skills`), and OpenCode/Cursor (`~/.agents/skills`) share the exact same configuration without duplicating files.
 
 ---
 
-## âš¡ Quick Start
+## Ã¢Å¡Â¡ Quick Start
 
 ### 1. Clone the repository
 
@@ -64,11 +64,12 @@ The script automatically detects your home directory and creates symbolic links/
 
 ---
 
-## ðŸ“‚ The 6 Sectors
+## Ã°Å¸â€œâ€š The 6 Sectors
 
 | Sector | Focus | Key Skills & Tools |
 | :--- | :--- | :--- |
-| **01. Governance** | Sprint checkpoints, Git auto-sync, Multi-AI protocol | Sprints 10%, Git post-commit auto-sync, Multi-agent onboarding |
+| **01. Governance** | Sprint checkpoints, Git auto-sync, Multi-AI protocol | 
+iche-discovery (descoberta com CONTEXT.md), Sprints 10%, Git auto-sync, Multi-agent onboarding |
 | **02. Engineering & Superpowers** | Core developer workflows & rigor | `test-driven-development`, `systematic-debugging`, `writing-plans`, `executing-plans`, `subagent-driven-development`, `dispatching-parallel-agents`, `using-git-worktrees` |
 | **03. Frontend, UI & Design** | Authentic web UI & design assets | `frontend-design`, `antiwebslop`, `pocket-design` (MCP), `design-taste-frontend` (modular), `theme-factory`, `canvas-design`, `algorithmic-art`, `web-artifacts-builder` |
 | **04. React, Next.js & Mobile** | High-performance fullstack patterns | `vercel-react-best-practices`, `vercel-composition-patterns`, `vercel-react-view-transitions`, `vercel-react-native-skills` |
@@ -77,7 +78,7 @@ The script automatically detects your home directory and creates symbolic links/
 
 ---
 
-## ðŸ§  How the Knowledge Graph Works
+## Ã°Å¸Â§Â  How the Knowledge Graph Works
 
 Instead of reading full `.md` files blindly, your agent queries the built-in graph:
 
@@ -91,19 +92,19 @@ Explore the visual graph interactively: open [`graphify-out/graph.html`](graphif
 
 ---
 
-<a name="portuguÃªs"></a>
-## ðŸ‡§ðŸ‡· PortuguÃªs
+<a name="portuguÃƒÂªs"></a>
+## Ã°Å¸â€¡Â§Ã°Å¸â€¡Â· PortuguÃƒÂªs
 
-O **multi-agent-skills-hub** Ã© um ecossistema modular de **38 skills de desenvolvimento** organizadas em **6 setores de engenharia**.
+O **multi-agent-skills-hub** ÃƒÂ© um ecossistema modular de **39 skills de desenvolvimento** organizadas em **6 setores de engenharia**.
 
 ### Vantagens:
-1. **Sem inchaÃ§o de contexto:** O agente nÃ£o carrega arquivos gigantes. Ele consulta o Grafo de Conhecimento (`graphify query`) e puxa apenas a instruÃ§Ã£o necessÃ¡ria.
-2. **Multi-IA Nativo:** Funciona simultaneamente no Claude Code, Antigravity, OpenCode e Cursor atravÃ©s de espelhos de links simbÃ³licos.
-3. **Design Anti-Slop:** Combina regras estÃ©ticas rigorosas com o servidor MCP `pocket-design` (Ã­cones SVG reais, fontes do Google/Fontshare e paletas OKLCH).
-4. **InstalaÃ§Ã£o em 1 Clique:** Rode `.\install.ps1` no Windows ou `./install.sh` no Mac/Linux para linkar todas as 38 skills imediatamente.
+1. **Sem inchaÃƒÂ§o de contexto:** O agente nÃƒÂ£o carrega arquivos gigantes. Ele consulta o Grafo de Conhecimento (`graphify query`) e puxa apenas a instruÃƒÂ§ÃƒÂ£o necessÃƒÂ¡ria.
+2. **Multi-IA Nativo:** Funciona simultaneamente no Claude Code, Antigravity, OpenCode e Cursor atravÃƒÂ©s de espelhos de links simbÃƒÂ³licos.
+3. **Design Anti-Slop:** Combina regras estÃƒÂ©ticas rigorosas com o servidor MCP `pocket-design` (ÃƒÂ­cones SVG reais, fontes do Google/Fontshare e paletas OKLCH).
+4. **InstalaÃƒÂ§ÃƒÂ£o em 1 Clique:** Rode `.\install.ps1` no Windows ou `./install.sh` no Mac/Linux para linkar todas as 39 skills imediatamente.
 
 ---
 
-## ðŸ“„ License
+## Ã°Å¸â€œâ€ž License
 
 Code and skills are distributed under the [MIT License](LICENSE) and [Apache-2.0](LICENSE) for relevant submodules.

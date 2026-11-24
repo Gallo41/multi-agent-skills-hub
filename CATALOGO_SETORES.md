@@ -3,13 +3,15 @@
 > **Busca rápida via Grafo de Configurações**: Antes de abrir múltiplos `.md`, execute em `C:\Users\Gallo\.gemini\setores`:
 > `graphify query "<termo>"` ou consulte [`setores/graphify-out/wiki/index.md`](./setores/graphify-out/wiki/index.md).
 
-## Setor 01 — Governança Delbor (`setores/01-governanca-delbor/`)
+## Setor 01 — Governança Delbor & Descoberta de Nicho (`setores/01-governanca-delbor/`)
 - **Visão Geral**: [`SETOR.md`](./setores/01-governanca-delbor/SETOR.md)
 - **Regras**:
   - [`regras/sprint-10-porcento.md`](./setores/01-governanca-delbor/regras/sprint-10-porcento.md) — Marcos 10% a 100%, `Sprint atual.md`, `task.md`, Central do Operador.
   - [`regras/git-auto-sync.md`](./setores/01-governanca-delbor/regras/git-auto-sync.md) — Hook `.githooks/post-commit`, `git-auto-sync.ps1`, arquivos proibidos.
   - [`regras/onboarding-projetos.md`](./setores/01-governanca-delbor/regras/onboarding-projetos.md) — Script `setup-delbor-project.ps1` e template `Projeto Padrão`.
   - [`regras/ecossistema-multi-ia.md`](./setores/01-governanca-delbor/regras/ecossistema-multi-ia.md) — Antigravity, Claudinho, OpenCode, Codex, OmniRoute e junctions.
+- **Skills (1)**:
+  1. [`niche-discovery`](./setores/01-governanca-delbor/skills/niche-discovery/SKILL.md) — Descoberta profunda de nicho, rotina real, jargões, concorrentes, regras fiscais (NF-e/NFC-e/NFS-e) e geração do `CONTEXT.md`.
 
 ## Setor 02 — Engenharia & Superpowers Core (`setores/02-engenharia-superpowers/`)
 - **Visão Geral**: [`SETOR.md`](./setores/02-engenharia-superpowers/SETOR.md)
